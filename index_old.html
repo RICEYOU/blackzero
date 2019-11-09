@@ -11,25 +11,30 @@
   <meta name="keywords" content="Black Zero Home Page">
   <!-- CSS dependencies -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-  <link rel="stylesheet" href="aquamarine.css">
-  <!-- Script: Make my navbar transparent when the document is scrolled to top -->
+  <link rel="stylesheet" href="colorful.css">
+  <!-- Script: Navbar on-top -->
   <script src="js/navbar-ontop.js"></script>
-  <!-- Script: Animated entrance -->
-  <script src="js/animate-in.js"></script>
+  
 </head>
 
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container"> <a class="navbar-brand" href="#">Black Zero</a> <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-      <div class="collapse navbar-collapse text-center justify-content-end" id="navbar2SupportedContent">
+  <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark" style="">
+    <div class="container">
+      <a class="navbar-brand" href="#"><b>Black Zero</b></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar3SupportedContent" aria-controls="navbar3SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse text-center justify-content-end" id="navbar3SupportedContent">
         <ul class="navbar-nav">
-          <li class="nav-item mx-2"> <a class="nav-link" href="#mission">Mission</a> </li>
-          <li class="nav-item mx-2"> <a class="nav-link" href="#product">Product List</a> </li>
-        </ul> <a class="btn navbar-btn text-white mx-2 btn-primary" href="#us">us</a> </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#what">What</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#product">Product</a>
+          </li>
+        </ul>
+        <a class="btn navbar-btn btn-outline-light" href="#us">Contact us</a>
+      </div>
     </div>
   </nav>
-  <!-- Cover -->
   <div class="py-5 text-center cover d-flex flex-column bg-primary" style="	background-image: url(assets/img/vintage-car-on-snow-325680.jpg);	background-position: top left;	background-size: 100%;	background-repeat: repeat;">
     <div class="container my-auto">
       <div class="row">
@@ -48,7 +53,6 @@
       </div>
     </div>
   </div>
-  <!-- Mission -->
   <div class="py-5 filter-dark cover bg-fixed" id="mission" style="	background-image: url(assets/img/auto-automobile-automotive-car-305070.jpg);	background-position: center bottom;	background-size: cover;	background-repeat: repeat;">
     <div class="container my-auto">
       <div class="row">
@@ -59,7 +63,6 @@
       </div>
     </div>
   </div>
-  <!-- Product -->
   <div class="py-3 bg-primary" id="product">
     <div class="container">
       <div class="row">
@@ -156,7 +159,6 @@
       </div>
     </div>
   </div>
-  <!-- What -->
   <div class="py-5 bg-light" id="what" style="	background-image: url(assets/img/blur-close-up-dewdrops-drops-248395.jpg);	background-position: top left;	background-size: 100%;	background-repeat: repeat;">
     <div class="container">
       <div class="row text-center">
@@ -195,7 +197,6 @@
       </div>
     </div>
   </div>
-  <!-- us -->
   <div class="text-white bg-dark" id="us">
     <div class="container">
       <div class="row">
@@ -213,36 +214,12 @@
       </div>
     </div>
   </div>
-  <!-- Call to action -->
-  
-  <!-- Footer -->
-  <!--
-  <div class="pt-5 bg-dark">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-9">
-          <p class="lead">Sign up to our newsletter for the latest news</p>
-          <form class="form-inline">
-            <div class="form-group"> <input type="email" class="form-control my-1 mr-1" placeholder="Your e-mail here"> </div> <button type="submit" class="btn my-1 btn-outline-primary">Subscribe</button> </form>
-        </div>
-        <div class="col-4 col-md-1 align-self-center my-3"> <a href="https://www.facebook.com" target="blank"><i class="fa fa-fw fa-facebook fa-3x text-white"></i></a> </div>
-        <div class="col-4 col-md-1 align-self-center my-3"> <a href="https://twitter.com" target="blank"><i class="fa fa-fw fa-twitter fa-3x text-white"></i></a> </div>
-        <div class="col-4 col-md-1 align-self-center my-3"> <a href="https://www.instagram.com" target="blank"><i class="fa fa-fw fa-instagram fa-3x text-white"></i></a> </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 my-3 text-center">
-          <p class="text-muted">© Copyright 2018 Pingendo - All rights reserved.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  -->
-  <!-- JavaScript dependencies -->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <!-- Script: Smooth scrolling between anchors in the same page -->
   <script src="js/smooth-scroll.js"></script>
+  
 </body>
 
 </html>
